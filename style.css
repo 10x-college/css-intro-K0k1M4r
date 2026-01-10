@@ -1,0 +1,152 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+
+}
+
+.introSection{
+    background-image: url(./assets/e11fe0289d1ad6e93656e54c43b99f9275d82560.jpg);
+    color: white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.introSection h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+.introSection h3 {
+    font-size: 20px;
+}
+
+.mainSection h2 {
+    font-size: 36px;
+    text-align: center;
+    background-color: #F5F5F7;
+    padding-top: 45px;
+    padding-bottom: 49px;
+}
+
+.finalChanges {
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1122px;
+}
+
+.rectRow1 {
+    display: flex;
+}
+.rectRow2 {
+    display: flex;
+    padding-bottom: 122px;
+}
+
+.fullRect {
+    margin-right: 29px;
+    margin-bottom: 29px
+}
+
+.purple {
+    width: 360px;
+    height: 240px;
+    background-color: #C7B8FF;
+}
+
+.pink {
+    width: 360px;
+    height: 240px;
+    background-color: #FFB8D8;
+}
+
+.blue {
+    width: 360px;
+    height: 240px;
+    background-color: #B8E0FF;
+}
+
+.green {
+    width: 360px;
+    height: 240px;
+    background-color: #D4FFB8;
+}
+
+.orange {
+    width: 360px;
+    height: 240px;
+    background-color: #FFE4B8;
+}
+
+.red {
+    width: 360px;
+    height: 240px;
+    background-color: #FFD4B8;
+}
+
+
+.recttext {
+    width: 360px;
+    height: 232px;
+    background-color: white;
+    
+}
+
+.recttext span {
+    font-size: 13px;
+}
+
+.recttext h4 {
+    font-size: 22px;
+}
+
+.recttext p {
+    font-size: 15px;
+}
+
+
+.footerUpperHalf {
+    color: white;
+    background-color: #252424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.footerUpperHalf h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tech-contact {
+    margin-top: 57px;
+    margin-bottom: 47px;
+    margin-right: 82px;
+}
+
+
+
+.categories {
+    margin-top: 54px;
+    margin-bottom: 156px;
+}
+
+.footerLowerHalf {
+    color: #86868B;
+    background-color: #020202;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+}

@@ -1,3 +1,7 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -16,6 +20,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 83px;
+    
 }
 
 .header a {
@@ -49,10 +54,12 @@
 
 .introSection h3 {
     font-size: 20px;
+    font-weight: 500;
 }
 
 .mainSection h2 {
     font-size: 36px;
+    font-weight: 700;
     text-align: center;
     background-color: #F5F5F7;
     padding-top: 45px;
@@ -127,18 +134,21 @@
 
 .recttext span {
     font-size: 13px;
+    font-weight: 400;
     margin-right: 28px;
     
 }
 
 .recttext h4 {
     font-size: 22px;
+    font-weight: 600;
     margin-top: 15px;
     margin-bottom: 6px;
 }
 
 .recttext p {
     font-size: 15px;
+    font-weight: 400;
 }
 
 
@@ -156,6 +166,15 @@
     font-weight: 600;
 }
 
+.footerUpperHalf span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footerUpperHalf p {
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 .tech-contact {
@@ -200,4 +219,9 @@
     align-items: center;
     justify-content: center;
     height: 55px;
+}
+
+.footerLowerHalf span{
+    font-weight: 600;
+    font-size: 13px;
 }

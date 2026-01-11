@@ -5,9 +5,32 @@
     height: 72px;
 
 }
+.techBlog {
+    font-size: 24px;
+    font-weight: 700;
+    height: 50px;
+    width: 152px;
+    background-color: #F0EDFF;
+    color: #5B47D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 83px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 13px;
+}
 
 .introSection{
     background-image: url(./assets/e11fe0289d1ad6e93656e54c43b99f9275d82560.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     height: 400px;
     width: 100%;
@@ -96,18 +119,22 @@
 
 
 .recttext {
-    width: 360px;
-    height: 232px;
+    width: 322px;
+    height: 200px;
     background-color: white;
-    
+    padding: 15px 19px 17px 19px;
 }
 
 .recttext span {
     font-size: 13px;
+    margin-right: 28px;
+    
 }
 
 .recttext h4 {
     font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 6px;
 }
 
 .recttext p {
@@ -121,7 +148,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 349px;
 }
 
 .footerUpperHalf h4 {
@@ -129,17 +156,41 @@
     font-weight: 600;
 }
 
+
+
 .tech-contact {
     margin-top: 57px;
     margin-bottom: 47px;
     margin-right: 82px;
 }
 
+.tech-contact h4 {
+    margin-top: 34px;
+    margin-bottom: 11px;
+}
 
+.tech-contact span {
+    color: #A1A1A6;
+}
+
+.tech-contact p {
+    margin-bottom: 11px;
+    color: #A1A1A6;
+}
 
 .categories {
     margin-top: 54px;
     margin-bottom: 156px;
+}
+
+.categories h4 {
+    margin-top: 17px;
+    margin-bottom: 14px;
+}
+
+.categories p {
+    margin-bottom: 11px;
+    color: #A1A1A6;
 }
 
 .footerLowerHalf {

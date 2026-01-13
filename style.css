@@ -9,6 +9,15 @@ body {
     height: 72px;
 
 }
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+}
+
 .techBlog {
     font-size: 24px;
     font-weight: 700;
@@ -23,7 +32,8 @@ body {
     
 }
 
-.header a {
+
+.links {
     text-decoration: none;
     color: #000000;
     font-size: 24px;
@@ -84,6 +94,7 @@ body {
 }
 
 .fullRect {
+    
     margin-right: 29px;
     margin-bottom: 29px
 }
@@ -144,6 +155,7 @@ body {
     font-weight: 600;
     margin-top: 15px;
     margin-bottom: 6px;
+    line-height: 27px;
 }
 
 .recttext p {
@@ -171,7 +183,7 @@ body {
     font-weight: 400;
 }
 
-.footerUpperHalf p {
+.footerUpperHalf li {
     font-size: 14px;
     font-weight: 600;
 }
@@ -192,9 +204,10 @@ body {
     color: #A1A1A6;
 }
 
-.tech-contact p {
+.tech-contact li {
     margin-bottom: 11px;
     color: #A1A1A6;
+    list-style: none;
 }
 
 .categories {
@@ -207,7 +220,7 @@ body {
     margin-bottom: 14px;
 }
 
-.categories p {
+.categories li {
     margin-bottom: 11px;
     color: #A1A1A6;
 }
